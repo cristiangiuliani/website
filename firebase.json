@@ -1,20 +1,15 @@
 {
-  "hosting": [
-    {
-      "target": "homepage",
-      "public": "dist-homepage",   
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [
-        { "source": "**", "destination": "/index.html" }
-      ]
-    },
-    {
-      "target": "scorecards",
-      "public": "dist-scorecards",      
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [
-        { "source": "/scorecards/**", "destination": "/index.html" }
-      ]
+  "projects": {
+    "default": "cristian-giuliani"
+  },
+  "targets": {
+    "cristian-giuliani": {
+      "hosting": {
+        "homepage": [
+          "cristian-giuliani"
+        ]
+      }
     }
-  ]
+  },
+  "etags": {}
 }
