@@ -5,7 +5,7 @@
   "targets": {
     "cristian-giuliani": {
       "hosting": {
-        "scorecards": [
+        "homepage": [
           "cristian-giuliani"
         ]
       }

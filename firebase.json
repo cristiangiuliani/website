@@ -1,15 +1,12 @@
 {
-  "projects": {
-    "default": "cristian-giuliani"
-  },
-  "targets": {
-    "cristian-giuliani": {
-      "hosting": {
-        "homepage": [
-          "cristian-giuliani"
-        ]
-      }
+  "hosting": [
+    {
+      "target": "homepage",
+      "public": "dist-homepage",   
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        { "source": "**", "destination": "/index.html" }
+      ]
     }
-  },
-  "etags": {}
+  ]
 }
