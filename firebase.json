@@ -2,10 +2,18 @@
   "hosting": [
     {
       "target": "homepage",
+      "public": "public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        { "source": "/", "destination": "/index.html" }
+      ]
+    },
+    {
+      "target": "scorecards",
       "public": "dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
-        { "source": "/**", "destination": "/index.html" }
+        { "source": "/scorecards/**", "destination": "/index.html" }
       ]
     }
   ]
