@@ -5,9 +5,16 @@
   "targets": {
     "cristian-giuliani": {
       "hosting": {
-        "homepage": ["cristian-giuliani"],
-        "scorecards": ["cristian-giuliani"]
+        "homepage": [
+          "cristian-giuliani",
+          "cristian-giulianiyarn",
+          "install"
+        ],
+        "scorecards": [
+          "cristian-giuliani"
+        ]
       }
     }
-  }
+  },
+  "etags": {}
 }

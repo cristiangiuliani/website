@@ -50,7 +50,7 @@ jobs:
         run: npm install -g firebase-tools
         
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --project cristian-giuliani --only hosting
+        run: firebase deploy --project cristian-giuliani --only hosting:homepage
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth.outputs.credentials_file_path }}
           GCLOUD_PROJECT: cristian-giuliani

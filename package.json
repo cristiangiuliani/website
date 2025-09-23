@@ -1,5 +1,5 @@
 {
-  "name": "Cristian Giuliani",
+  "name": "cristian-giuliani",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "firebase": "^12.3.0"
   },
   "devDependencies": {
-    "firebase-tools": "^14.17.0",
+    "firebase-tools": "^14.17.0"
+  },
   "packageManager": "yarn@4.9.4"
-}
 }
