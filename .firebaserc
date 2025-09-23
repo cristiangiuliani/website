@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "cristian-giuliani"
+  },
+  "targets": {
+    "cristian-giuliani": {
+      "hosting": {
+        "homepage": ["cristian-giuliani"],
+        "scorecards": ["cristian-giuliani"]
+      }
+    }
+  }
+}
