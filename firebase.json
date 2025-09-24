@@ -1,16 +1,21 @@
 {
-  "hosting": [
-    {
-      "target": "homepage",
-      "public": "dist-homepage",   
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [
-        { "source": "**", "destination": "/index.html" },
-        {
+  "hosting": {
+    "target": "homepage",
+    "public": "dist", 
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/scorecards",
+        "destination": "https://cristian-giuliani-scorecards.web.app/"
+      },
+      {
         "source": "/scorecards/**",
         "destination": "https://cristian-giuliani-scorecards.web.app/**"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
-      ]
-    }
-  ]
+    ]
+  }
 }
