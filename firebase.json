@@ -5,7 +5,11 @@
       "public": "dist-homepage",   
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
-        { "source": "**", "destination": "/index.html" }
+        { "source": "**", "destination": "/index.html" },
+        {
+        "source": "/scorecards/**",
+        "destination": "https://cristian-giuliani-scorecards.web.app/**"
+      }
       ]
     }
   ]
