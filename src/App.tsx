@@ -39,7 +39,7 @@ const App = () => {
               color: 'inherit'
             }}
             startIcon={<GitHub fontSize="inherit" />}
-            onClick={() => window.open('https://github.com/cristiangiuliani/scorecards', '_blank')}
+            onClick={() => window.open('https://github.com/cristiangiuliani', '_blank')}
           >
             GitHub Repository
           </Button>
