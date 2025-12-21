@@ -11,7 +11,9 @@ const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-    <Container sx={{ minHeight: '100vh',
+    <Container sx={{ 
+        minHeight: '100vh',
+        maxWidth: '100vw !important',
         padding: 0,
         margin: 0,
         width: '100vw',
